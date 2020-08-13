@@ -1,0 +1,79 @@
+.all_container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#special-offer{
+    background-color: crimson;
+    min-height: 20vh;
+    width: 80%;
+    margin: 5vh 0;
+}
+#special-offer>h1{
+    margin: 2vh 2vh ;
+}
+.special_offer_holder{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.price_holder{
+    height: 20vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sideshow_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*padding: 5vh;*/
+    border: 1px solid black;
+}
+.sideshow_holder>button{
+    font-size: 2em;
+}
+#banner{
+    background-color: rosybrown;
+    min-height: 100vh;
+    width: 80%;
+    margin: 5vh auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav{
+    min-height: 60vh;
+    height: auto;
+    width: 100%;
+    background-color: seashell;
+    margin-bottom: 5vh;
+
+}
+nav>h1{
+    margin: 2vh 10vw 5vh 0;
+}
+.card_holder{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    border: 1px solid black;
+    width: 20vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+.card>img{
+    height: 40vh;
+}

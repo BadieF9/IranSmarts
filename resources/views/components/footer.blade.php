@@ -1,0 +1,26 @@
+
+<footer>
+    <nav>
+        <ul>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+        </ul>
+        <ul>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+        </ul>
+        <ul>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+            <Li>ممد</Li>
+        </ul>
+    </nav>
+</footer>

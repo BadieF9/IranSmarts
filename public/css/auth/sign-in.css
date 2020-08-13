@@ -1,0 +1,35 @@
+div.container{
+    height: 70vh;
+    width: 40vw;
+    background-color: skyblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.container>form{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 15px;
+}
+label{
+    font-size: 1.2em;
+}
+input[type="submit"]{
+    width: 10vw;
+    height: 5vh; 
+    margin-top: 2vh;
+    background-color: seagreen;
+}

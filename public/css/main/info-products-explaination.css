@@ -1,0 +1,27 @@
+section{
+    background-color: silver;
+    width: 60%;
+    height: auto;
+    margin: 5vh auto;
+}
+section>h1{
+    margin: 3vh 0;
+
+    position: relative;
+    top: 3vh;
+}
+div.review{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 140vh;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+p{
+    line-height: inherit;
+}
+q{
+    margin:2vh 5vw;
+    border-right: 2px solid gray;
+}

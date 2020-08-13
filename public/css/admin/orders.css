@@ -1,0 +1,26 @@
+div.container {
+    background-color: lavender;
+    height: 90vh;
+    width: 80vw;
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+    padding: 3vw 7vw 3vw 0;
+    text-align: right;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+table {
+    background-color: lawngreen;
+    height: 15vh;
+}
+
+section {
+    background-color: lightsalmon;
+    height: 30vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}

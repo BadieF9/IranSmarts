@@ -1,0 +1,47 @@
+div.container{
+    background-color: lightcyan;
+    height: 90vh;
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.card{
+    border: 1px solid gray;
+    height: 55vh;
+    width: 20vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.card>button.delete{
+    color: red;
+    position: relative;
+    left: 8.5vw;
+}
+section.card>button.add{
+    height: 4vh;
+    width: 10vw;
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+}
+section.card>img{
+    border: 1px solid slategrey;
+    height: 35vh;
+    width: 35vh;
+    background-color: rgba(135, 207, 235, 0.356);
+}
+section.card>span{
+    height: 5vh;
+    width: 100%;
+    background-color: snow;
+    text-align: center;
+    color: tomato;
+    font-size: 2em;
+}

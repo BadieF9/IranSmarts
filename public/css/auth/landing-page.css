@@ -1,0 +1,29 @@
+div.container{
+    height: 20vh;
+    width: 40vw;
+    background-color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div.container>a{
+    height: 7vh;
+    width: 25vw;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a#log-in{
+    border: 1px solid green;
+    background-color: greenyellow;
+}
+a#sign-in{
+    border: 1px solid grey;
+    background-color: lightgray;
+}

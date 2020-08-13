@@ -1,0 +1,45 @@
+div.container {
+    background-color: lightblue;
+    height: 90vh;
+    width: 80vw;
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "latest latest graph" "todo order order";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5vh 5vw;
+}
+
+div.container>section {
+    background-color: lightpink;
+    text-align: center;
+}
+
+div.container>section>h1 {
+    margin-top: 2vh;
+}
+
+div.container>section>table {
+    background-color: lime;
+    position: relative;
+    top: 5vh;
+    width: 100%;
+}
+
+div.container>#latest-sales {
+    grid-area: latest;
+}
+
+div.container>#graph {
+    grid-area: graph;
+}
+
+div.container>#todo {
+    grid-area: todo;
+}
+
+div.container>#latest-orders {
+    grid-area: order;
+}

@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+}
+section{
+    height: 100%;
+    width: 60%;
+    margin: 5vh auto;
+
+}
+.review{
+    min-height: 20vh;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 0 35px 0 50px;
+    margin: 3vh 0;
+    background-color: silver;
+}
+.review>p{
+    margin: 3vh 3vh;
+    line-height: 1.6;
+}
+.review_header{
+    height: 5vh;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center ;
+}

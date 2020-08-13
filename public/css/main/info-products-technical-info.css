@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    height: auto;
+}
+section{
+    height: auto;
+    width: 60%;
+    background-color: seashell;
+    margin: 5vh auto;
+
+}
+table{
+    height: 100vh;
+    width: 40vw;
+    margin: 0 auto;
+}
+th{
+    border: 1px solid black;
+    vertical-align: middle;
+
+}
+td{
+    border: 1px solid black;
+    vertical-align: middle;
+    padding: 1vh;
+}
+td:nth-child(2){
+    text-align: center;
+}
+tr:nth-child(2n){
+    background-color: silver;
+}

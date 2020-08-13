@@ -1,0 +1,24 @@
+nav {
+    height: 40vh;
+    width: 4vw;
+    background-color: orange;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-right: 1vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>a {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

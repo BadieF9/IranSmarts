@@ -1,0 +1,12 @@
+div.container {
+        background-color: lightblue;
+        height: 90vh;
+        width: 80vw;
+        position: relative;
+        top: 5vh;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+}

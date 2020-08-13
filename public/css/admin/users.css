@@ -1,0 +1,64 @@
+/* 
+    add minheight and max height
+    add minwidth and max width 
+*/
+
+div.container {
+    background-color: lightblue;
+    height: 90vh;
+    width: 80vw;
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "manger editor senders" "customer customer customer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5vh 5vw;
+}
+
+div.container>section {
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+#manegers {
+    grid-area: manger;
+}
+
+#editors {
+    grid-area: editor;
+}
+
+#senders {
+    grid-area: senders;
+}
+
+#customers {
+    grid-area: customer;
+}
+
+div.container>section>span {
+    font-size: 2em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+.ul {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 25vh;
+}
+
+.last-ul {
+    width: 80vw;
+    height: 30vh;
+}
